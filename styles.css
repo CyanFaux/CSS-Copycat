@@ -1,0 +1,118 @@
+body {
+  background-color: #202124;
+  color: lightgrey;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: small;
+  /*   height: 100vh;
+  display: flex;
+  flex-direction: column; */
+}
+
+main {
+  height: 75vh;
+}
+
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  position: relative;
+  top: 0.75em;
+  padding: 0;
+}
+
+.nav1 {
+  position: relative;
+  left: 2em;
+}
+.nav2 {
+  margin-right: 30em;
+}
+.nav3 {
+  margin-left: 35em;
+}
+.nav4 {
+  position: relative;
+  right: -1em;
+}
+.nav5 {
+  width: 75%;
+  position: relative;
+  top: -1em;
+  right: -1em;
+}
+
+#logo {
+  margin-bottom: 2em;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search-input {
+  width: 40em;
+  height: 3em;
+  margin-bottom: 2em;
+  background-color: #202124;
+  border-radius: 2em;
+  border: 1px solid lightgrey;
+}
+
+#search-input:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-button, #feeling-lucky-button {
+    background-color: #303134;
+    color: lightgrey;
+    border: 1px solid #303134;
+    padding: 0.75em 1em 0.75em 1em;
+    border-radius: 0.25em;
+    margin: 0 0.5em 1em 0.5em;
+}
+
+#search-button:hover, #feeling-lucky-button:hover {
+    border 1px solid lightgrey;
+}
+
+.NAHM-link {
+    color: #7a9dd8;
+}
+
+.NAHM-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #171717;
+  height: 4em;
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+  position: relative;
+  top: 0.75em;
+  padding: 0;
+}
+
+.foot1 {
+
+}
+.foot2 {
+}
+.foot3 {
+}
